@@ -12,6 +12,7 @@ MotorDirection update_current_direction(int STOP, MotorDirection current_directi
     }
     return 0;
 };
+#Denne funksjonen er ikke ferdig. Den skal oppdatere motor_direction og ikke bare returnere en verdi. Tror man må bruke peker!
 
 MotorDirection get_current_direction(MotorDirection current_direction){
     return current_direction;
